@@ -1,0 +1,72 @@
+/* Style the input container */
+.input-container {
+    display: flex;
+    flex-direction: column; /* Display the elements vertically */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.elegant-heading {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #334b65; /* Adjust the color as needed */
+    font-weight: bold; /* Make it bold */
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+
+/* Style the textarea */
+.info-textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add space between textarea and button */
+}
+
+/* Style the "Add" button */
+.add-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Change button background color on hover */
+.add-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the info container */
+.box-container {
+    display: flex;
+    justify-content: space-between; /* Put the remove button to the right */
+    align-items: center;
+    margin-bottom: 10px; /* Add space between info boxes */
+}
+
+/* Style the info text */
+.info-box {
+    flex-grow: 1; /* Allow the text to grow and take available space */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the remove button */
+.remove-button {
+    background-color: #FF0000; /* Red color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px; /* Add space between text and button */
+    cursor: pointer;
+}
+
+/* Change remove button background color on hover */
+.remove-button:hover {
+    background-color: #CC0000; /* Darker red on hover */
+}
